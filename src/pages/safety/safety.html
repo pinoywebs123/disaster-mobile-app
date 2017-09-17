@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Safety Tips
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<ion-grid>
+  <ion-row>
+    <ion-col col-6 (click)="clickEarthquake()">
+        <img src="img/earthquake.jpg">
+    </ion-col>
+    <ion-col col-6 (click)="clickFires()">
+        <img src="img/fire.jpg">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-6 (click)="clickFloods()">
+        <img src="img/floods.jpg">
+    </ion-col>
+    <ion-col col-6 (click)="clickLandslide()">
+        <img src="img/landslide.jpg">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-6 (click)="clickNuclear()">
+          <img src="img/nuclear.jpg">
+    </ion-col>
+    <ion-col col-6 (click)="clickTsunami()">
+        <img src="img/tsunami.jpg">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-6 (click)="clickTyphoon()">
+      <img src="img/typhoon.jpg">
+    </ion-col>
+    <ion-col col-6 (click)="clickVolcano()">
+      <img src="img/volcano.jpg">
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col col-12 (click)="clickSurvival()">
+      <img src="img/survival.jpg">
+    </ion-col>
+    
+  </ion-row>
+</ion-grid>
+</ion-content>

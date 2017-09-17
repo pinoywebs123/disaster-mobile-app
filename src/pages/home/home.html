@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar color="primary" (click)="clickInfo()">
+    <ion-title text-center>
+     MENU
+    </ion-title>
+   <ion-buttons end >
+     <ion-icon name="ios-information-circle" style="font-size: 30px"></ion-icon>
+   </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+  <ion-grid>
+    <ion-row text-center>
+      <ion-col col-6>
+        <img src="img/safety.png" width="80px" (click)="clickSafety()">
+        <h5>Safety Tips</h5>
+      </ion-col>
+      <ion-col col-6>
+        <img src="img/siren.png" width="80px" (click)="clickSiren()">
+        <h5>Siren</h5>
+      </ion-col>
+    </ion-row>
+
+     <ion-row text-center>
+      <ion-col col-6>
+        <img src="img/weather.png" width="80px" (click)="clickWeather()">
+        <h5>Weather Forecast</h5>
+      </ion-col>
+      <ion-col col-6>
+        <img src="img/hotline.png" width="80px" (click)="clickHotline()">
+        <h5>Emergency Hotline</h5>
+      </ion-col>
+    </ion-row>
+
+     <ion-row text-center>
+      <ion-col col-6>
+        <img src="img/aid.png" width="80px" (click)="clickFirst()">
+        <h5>First Aid</h5>
+      </ion-col>
+      <ion-col col-6>
+        <img src="img/map.png" width="80px" (click)="clickMap()">
+        <h5>Map</h5>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <p text-center>All Right Reserve 2017</p>
+</ion-footer>
